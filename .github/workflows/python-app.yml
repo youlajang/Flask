@@ -21,7 +21,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: yulajang0910/flask
-        tags: ${{github.sha}}
+        tags: ${{ github.sha }}
         registry: docker.io
         username: yulajang0910
         password: dckr_pat_tZcngnfSNej4vm_VkgYQevBw7a0
